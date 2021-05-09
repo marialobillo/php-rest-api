@@ -1,0 +1,10 @@
+{
+    "name": "maria/php-rest-api",
+    "authors": [
+        {
+            "name": "Maria Lobillo Santos",
+            "email": "maria.lobillo.santos@gmail.com"
+        }
+    ],
+    "require": {}
+}
