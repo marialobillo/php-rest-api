@@ -17,8 +17,8 @@
   
     $item->getSingleEmployee();
 
-    if($item->name != null){
-        // create array
+    if($item->name != null)
+    {
         $emp_arr = array(
             "id" =>  $item->id,
             "name" => $item->name,
@@ -32,7 +32,8 @@
         echo json_encode($emp_arr);
     }
       
-    else{
+    else
+    {
         http_response_code(404);
         echo json_encode("Employee not found.");
     }
