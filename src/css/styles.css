@@ -1,0 +1,21 @@
+.caja {
+  background: #ffffff;
+  border-radius: 12px;
+  max-height: 300px;
+}
+
+.img-home{
+  border-radius: 5px; 
+  object-fit: cover;
+  max-height: 300px;
+}
+
+
+.img-banner{
+  width: 100%; /* width of container */
+  height:200px; /* height of container */
+  object-fit: cover;
+  object-position: 60% 40%; /* try 20px 10px */ 
+  border-radius: 10px;
+  
+}
