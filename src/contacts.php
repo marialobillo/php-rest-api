@@ -5,12 +5,12 @@
         <h3>Lista de Contactos</h3>
     </div> 
     <div class="col-sm-4 offset-2">
-        <a href="crear_contacto.php" class="btn btn-success w-100"><i class="bi bi-plus-circle-fill"></i> Nuevo Contacto</a>
+        <a href="create_contact.php" class="btn btn-success w-100"><i class="bi bi-plus-circle-fill"></i> Nuevo Contacto</a>
     </div>    
 </div>
 <div class="row mt-2 caja">
     <div class="col-sm-12">
-            <table id="tblContactos" class="display" style="width:100%">
+            <table id="tblContacts" class="display" style="width:100%">
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -71,102 +71,8 @@
                             <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
                         </td>
                     </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
-                        </td>
-                    </tr>                                          
+                    
+                                                        
                 </tbody>       
             </table>
     </div>
@@ -175,6 +81,6 @@
 
 <script>
     $(document).ready( function () {
-        $('#tblContactos').DataTable();
+        $('#tblContacts').DataTable();
     });
 </script>

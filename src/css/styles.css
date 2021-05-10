@@ -1,7 +1,8 @@
-.caja {
-  background: #ffffff;
-  border-radius: 12px;
+.box {
+  background: #cbe5f5;
+  border-radius: 10px;
   max-height: 300px;
+  border: 1px solid black;
 }
 
 .img-home{

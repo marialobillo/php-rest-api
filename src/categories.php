@@ -10,7 +10,7 @@
 </div>
 <div class="row mt-2 caja">
     <div class="col-sm-12">
-            <table id="tblCategorias" class="display" style="width:100%">
+            <table id="tblCategories" class="display" style="width:100%">
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -27,73 +27,9 @@
                         <td>
                             <a href="edit_category.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>                                                
                     </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td><a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a></td>
-                    </tr>                                          
+                    
+               
+                                                           
                 </tbody>       
             </table>
     </div>
@@ -102,6 +38,6 @@
 
 <script>
     $(document).ready( function () {
-        $('#tblCategorias').DataTable();
+        $('#tblCategories').DataTable();
     });
 </script>
