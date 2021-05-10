@@ -3,7 +3,7 @@
     //Configurar datos de acceso a la Base de datos
     $host = "localhost";
     $dbname = "agenda_db";
-    $dbuser = "admin";
+    $dbuser = "postgres";
     $userpass = "Apple123*";
     
     $dsn = "pgsql:host=$host;port=5432;dbname=$dbname;user=$dbuser;password=$userpass";

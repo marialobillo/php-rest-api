@@ -31,8 +31,8 @@
                         <td>System Architect</td>
                         <td>Edinburgh</td>
                         <td>
-                            <a href="editar_contacto.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
-                            <a href="borrar_contacto.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
+                            <a href="edit_contact.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>
+                            <a href="delete_contact.php" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i> Borrar</a>
                         </td>
                     </tr>
                     <tr>

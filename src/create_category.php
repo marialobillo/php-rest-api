@@ -12,7 +12,7 @@
                 <input type="text" class="form-control" name="name" id="name" placeholder="Type here your category...">               
             </div>          
 
-            <button type="submit" name="crearCategoria" class="btn btn-primary w-100">New Category</button>
+            <button type="submit" name="createCategory" class="btn btn-primary w-100">New Category</button>
             </form>
         </div>
     </div>

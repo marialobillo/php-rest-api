@@ -25,7 +25,7 @@
                         <td>System Architect</td>
                         <td>Edinburgh</td>
                         <td>
-                            <a href="editar_categoria.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>                                                
+                            <a href="edit_category.php" class="btn btn-warning"><i class="bi bi-pencil-fill"></i> Editar</a>                                                
                     </td>
                     </tr>
                     <tr>

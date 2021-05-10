@@ -7,33 +7,33 @@
     <div class="row">
         <div class="col-sm-6 offset-3">
         <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingresa el nombre">               
+        <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Here the name...">               
             </div>
             <div class="mb-3">
-                <label for="apellidos" class="form-label">Apellidos:</label>
-                <input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="Ingresa los apellidos">               
+                <label for="lastname" class="form-label">Lastname:</label>
+                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Here the lastname...">               
             </div>
             <div class="mb-3">
-                <label for="telefono" class="form-label">Teléfono:</label>
-                <input type="number" class="form-control" name="telefono" id="telefono" placeholder="Ingresa el teléfono">               
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Here the phone number...">               
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email:</label>
-                <input type="email" class="form-control" name="email" id="email" placeholder="Ingresa el email">               
+                <input type="email" class="form-control" name="email" id="email" placeholder="Here the eMail...">               
             </div>
 
             <div class="mb-3">
-                <label for="email" class="form-label">Categoría:</label>
+                <label for="email" class="form-label">Category:</label>
                 <select class="form-select" aria-label="Default select example">
-                    <option value="">--Selecciona una Categoría--</option>
-                    <option value="Familia">Familia</option>
-                    <option value="Trabajo">Trabajo</option>               
+                    <option value="">--Select a Category--</option>
+                    <option value="Familia">Family</option>
+                    <option value="Trabajo">Work</option>               
                 </select>
             </div>
             <br />
-            <button type="submit" name="editarContacto" class="btn btn-primary w-100"><i class="bi bi-person-bounding-box"></i> Editar Contacto</button>
+            <button type="submit" name="editarContacto" class="btn btn-primary w-100"><i class="bi bi-person-bounding-box"></i> Edit Contact</button>
             </form>
         </div>
     </div>
