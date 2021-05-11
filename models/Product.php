@@ -63,14 +63,19 @@ class Product
     // create a new category
     public function createProduct()
     {
-        $query = 'INSERT INTO ' . $this->table . '(name, description) VALUES (:name, :description)';
+        $query = 'INSERT INTO ' . $this->table . '(name, description, category_id) 
+                VALUES (:name, :description, :category_id)';
        
         $stmt = $this->conn->prepeare($query);
         // clean data
         $this->name = htmlspecialchars(strip_tags($this->name));
+        $this->description = htmlspecialchars(strip_tags($this->description));
+        $this->category_id = htmlspecialchars(strip_tags($this->category_id));
+
         // PARAMS
         $stmt->bindParam(':name', $this->name);
         $stmt->bindParam(':description', $this->description);
+        $stmt->bindParam(':category_id', $this->category_id);
 
         if($stmt->execute()){
             return true;
@@ -84,17 +89,22 @@ class Product
 
     public function updateProduct()
     {
-        $query = 'UPDATE ' . $this->table . 'SET name = :name, description = :description WHERE id = :id';
-
+        $query = 'UPDATE ' . $this->table . ' SET name = :name, description = :description, 
+        category_id = :category_id WHERE id = :id';
+       
         $stmt = $this->conn->prepeare($query);
         // clean data
-        $this->id = htmlspecialchars(strip_tags($this->id));
         $this->name = htmlspecialchars(strip_tags($this->name));
         $this->description = htmlspecialchars(strip_tags($this->description));
+        $this->category_id = htmlspecialchars(strip_tags($this->category_id));
+        $this->id = htmlspecialchars(strip_tags($this->id));
+
         // PARAMS
         $stmt->bindParam(':name', $this->name);
-        $stmt->bindParam(':id', $this->id);
         $stmt->bindParam(':description', $this->description);
+        $stmt->bindParam(':category_id', $this->category_id);
+        $stmt->bindParam(':id', $this->id);
+
 
         if($stmt->execute()){
             return true;
